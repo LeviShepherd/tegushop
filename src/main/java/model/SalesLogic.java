@@ -22,7 +22,7 @@ public class SalesLogic {
 	public double calculateShipping(Tegu tegu) {
 		double shipRate = 0;
 		
-		if(tegu.getPrice() > 500) {
+		if(tegu.getPrice() >= 500) {
 			shipRate = 50.00;
 		} else {
 			shipRate = 20.00;

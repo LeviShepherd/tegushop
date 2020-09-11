@@ -5,6 +5,7 @@ public class Tegu {
 	private String color;
 	private int age;
 	private double price;
+	private boolean isWildCaught;
 	
 	/**
 	 * 
@@ -20,6 +21,16 @@ public class Tegu {
 	public Tegu(String name) {
 		super();
 		this.name = name;
+	}
+
+	/**
+	 * @param color
+	 * @param age
+	 */
+	public Tegu(String color, int age) {
+		super();
+		this.color = color;
+		this.age = age;
 	}
 
 	public String getName() {
@@ -52,5 +63,13 @@ public class Tegu {
 
 	public void setPrice(double price) {
 		this.price = price;
+	}
+
+	public boolean isWildCaught() {
+		return isWildCaught;
+	}
+
+	public void setWildCaught(boolean isWildCaught) {
+		this.isWildCaught = isWildCaught;
 	}
 }
