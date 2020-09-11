@@ -5,7 +5,7 @@ public class SalesLogic {
 	/**
 	 * 
 	 * @param tegu
-	 * @return
+	 * @return double
 	 */
 	public double calculateSalePrice(Tegu tegu) {
 		double taxRate = 1.07;
@@ -17,7 +17,7 @@ public class SalesLogic {
 	/**
 	 * 
 	 * @param tegu
-	 * @return
+	 * @return double
 	 */
 	public double calculateShipping(Tegu tegu) {
 		double shipRate = 0;
@@ -34,7 +34,7 @@ public class SalesLogic {
 	/**
 	 * 
 	 * @param tegu
-	 * @return
+	 * @return double
 	 */
 	public double calculateTotal(Tegu tegu) {
 		double total = 0;
